@@ -17,6 +17,11 @@ var currentDuration;
 var serverTimeCount = 0;
 
 
+var port = process.env.PORT || 3000 //this is a new change
+server.listen(port,function(){ //also this new
+  console.log("app listening on port: " + port) //also this new
+})
+
 //use an interval loop to count down the duration then do the block below! and emit!
 
 function getNewAudio(){
