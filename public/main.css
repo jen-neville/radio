@@ -1,0 +1,40 @@
+body{
+  width:100vw;
+  height:100vh;
+  background: #f7f7f7;
+}
+
+.bar {
+    height: 18px;
+    background: black;
+}
+
+.add {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  font-size: 10vw;
+  font-family: sans-serif;
+}
+
+.text {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font-size: 5vw;
+  font-family: sans-serif;
+}
+
+.add_text {
+  opacity: 0;
+}
+
+.add_text:hover {
+  opacity: 1;
+}

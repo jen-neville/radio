@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> ooo, listen :o</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div id="floater">
+      <!-- <div class="shot" style="position: fixed;">
+        NOW: track title
+      </div> -->
+    </div>
+    <!-- <script>
+      window.onLoad = Prep();
+      function Prep(){
+                    window_Height = window.innerHeight;
+                    window_Width = window.innerWidth;
+                    image_Element = document.getElementById("shot");
+                    image_Height = image_Element.clientHeight;
+                    image_Width = image_Element.clientWidth;
+                    availSpace_V = window_Height - image_Height;
+                    availSpace_H = window_Width - image_Width;
+                    var changeInterval = 2500; // Time has to be in miliseconds. So, 3000 is 3 seconds
+                    setInterval(moveImage, changeInterval);
+                }
+                function moveImage(){
+                    var randNum_V = Math.round(Math.random() * availSpace_V);
+                    var randNum_H = Math.round(Math.random() * availSpace_H);
+                    image_Element.style.top = randNum_V + "px";
+                    image_Element.style.left = randNum_H + "px";
+                }
+      </script> -->
+
+
+
+
+
+
+    <!-- <form action="/action_page.php">
+      <input type="file" name="pic" accept="audio/*">
+      <input type="submit">
+    </form> -->
+
+    <!-- <audio controls="controls" id="sound">
+      Ur browser is unsupportive
+    <source src="../hiJen/20170930 162736-1.m4a" type="audio/wav">
+  </audio> -->
+
+  <audio class="playback" src=""></audio>
+  <div id="progress">
+    <div class="bar" style="width: 0%;"></div>
+  </div>
+  <div class="add" align="center">
+    <div class="add_icon">+</div>
+  </div>
+  <div class="text">
+    <div class="add_text"> <br><br>add audio </div>
+  </div>
+    <!-- <input id="fileupload" type="file" name="files[]" data-url="server/php/" multiple> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="frontend.js" charset="utf-8"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/vendor/jquery.ui.widget.js"></script>
+    <script src="js/jquery.iframe-transport.js"></script> -->
+  </body>
+</html>
+
+
+<!-- ____________________________in-line simultaneous autoplay__________________________ -->
+<!-- <audio controls autoplay='true'>
+  <source src="../hiJen/20170930 162736-1.m4a" type="audio/mpeg">
+    ur browser is unsupportive.
+</audio>
+
+<audio controls autoplay='true'>
+  <source src="../hiJen/20170930 162743-1.m4a" type="audio/mpeg">
+    ur browser is unsupportive.
+</audio> -->
